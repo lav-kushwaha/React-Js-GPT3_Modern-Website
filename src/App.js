@@ -1,12 +1,23 @@
 import React from 'react'
-// import Article from './components/article/Article'
-// import Brand from './components/Brand/Brand'
-// import Cta from './components/Cta/Cta'
-// import Feature from './components/Feature/Feature'
-// import Navbar from './components/Navbar/Navbar'
+import {Footer,Blog,Possibility,Features,WhatGPT3,Header} from './Containers'
+import {CTA,Brand,Navbar} from './Components'
+import './App.css'
+
 const App = () => {
   return (
-    <div>Lav</div>
+  <div className='App'>
+     <div className='gradient__bg'>
+      <Navbar/>
+      <Header/>
+      </div>
+     <Brand/>
+     <WhatGPT3/>
+     <Features/>
+     <Possibility/>
+     <CTA/>
+     <Blog/>
+     <Footer/>
+  </div>
   )
 }
 export default App;
