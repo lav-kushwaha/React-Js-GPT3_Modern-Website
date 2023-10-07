@@ -9,7 +9,6 @@
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-
     margin-right: 5rem;
 }
 
@@ -71,7 +70,6 @@
     color: #fff;
     cursor: pointer;
     outline: none;
-
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
